@@ -1,0 +1,22 @@
+const palabras = [
+    'hulk',
+    'spiderman',
+    'ironman',
+    'avengers',
+    'capitan',
+    'pelota',
+    'muñeco',
+    'pantera',
+    'minions',
+    'youtube',
+    'netflix',
+    'presidente',
+    'silla',
+    'mueble',
+    'almohada',
+    'mesa',
+    'pantalla',
+    'closet',
+    'televisor',
+    'consola'
+]

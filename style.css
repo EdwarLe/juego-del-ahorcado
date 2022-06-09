@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Holidays';
+    src: url(fuentes/Holidays\ Homework.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family: 'Holidays';
+    margin: 0;
+    padding: 0;
+    background: url(/imagenes/tableroVerde.jpg) no-repeat center;
+    min-height: 100vh;
+    color: white;
+    transition: all 0.4s;
+}
+header{
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+.pizarra{
+    width: 80px;
+    height: 80px;
+    background: url(imagenes/sol.png);
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+.pizarra:hover{
+    background: url(imagenes/luna.png);
+}
+
+.active {
+    background: url(imagenes/luna.png);
+    transition: background 0.4s;
+}
+.active:hover {
+    background: url(imagenes/sol.png);
+}
+#volver{
+    background: url(imagenes/btns.png);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Holidays';
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+#base{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+#baseAho{
+    margin: auto;
+    padding: 5px;
+    height: 50vh;
+}
+#palabra-adivinar{
+    height: 3em;
+}
+#palabra-adivinar span{
+    vertical-align: bottom;
+    margin: 0 3px;
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+    align-items: center;
+    min-width: 35px;
+    text-align: center;
+    display: inline-block;
+}
+#jugar{
+    background: url(imagenes/btns.png);
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Holidays';
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+#letras{
+    margin: 30px 21px 0 21px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+}
+#letras button{
+    background: url(imagenes/BtnLetras.png);
+    width: 50px;
+    padding: 7px 0 12px 0;
+    text-align: center;
+    font-family: 'Holidays';
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+body.darkMode{
+    font-family: 'Holidays';
+    margin: 0;
+    padding: 0;
+    background: url(/imagenes/tablero.jpg) no-repeat center;
+    min-height: 100vh;
+    color: white;
+}
+
+/* hoja principal */
+
+.contenedor{
+    margin: auto;
+    padding: 10% 4% 4% 4%;
+    width: 80%;
+    height: 60vh;
+    position: relative;
+    font-weight: 200;
+}
+.contenedorBtns{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.contenedorLetras{
+
+    padding: 10% 2% 2% 2%;
+}
+.btnsLinksMain{
+    margin: auto;
+    justify-content: center;
+}
+.imgBtns{
+    width: 280px;
+}
+#btnIzq{
+    position: absolute;
+/*    height: 90px;
+    width: 270px;*/
+    top: 25%;
+    left: 11%;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#btnDer{
+    position: absolute;
+   /* height: 90px;
+    width: 270px;*/
+    top: 25%;
+    right: 10%;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.btnsLinks{
+    margin: auto 40%;
+    padding: 3% 0;
+    background-position: center;
+    width: 150px;
+    color: white;
+    font-size: 22px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+.btnsLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.text-info{
+    text-align: center;
+    font-size: 22px;
+}
+.caja-texto{
+    border: none;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    font-family: 'Holidays';
+    font-size: 22px;
+    background: none;
+    color: white;
+    outline: none;
+    margin: 5% 0;
+    resize: none;
+}
+.caja-texto::placeholder{
+    color: white;
+}
+.ingresarPalabra{
+    justify-content: center;
+
+}
+#btnIniciar{
+    position: relative;
+}
+#iniciar{
+    position: absolute;
+    top: 28%;
+    right: 43%;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>EL AHORCADO</title>
+ </head>
+ <body>
+     <header>
+         <h1>Juego del ahorcado</h1>
+         <button id="pizarra" class="pizarra"></button>
+     </header>
+     <main>
+        <div class="contenedor">
+            <div id="contenedorBtns">
+                <div>
+                    <input type="text" class="caja-texto" id="inputPalabraIngresada" placeholder="Ingresa la palabra" pattern="[A-Za-z]" title="Por favor ingresa una palabra sin acentos y sin espacios" required>
+                </div>
+                <div id="btnIniciar">
+                    <input type="image" name="bntIniciar1" src="imagenes/btnIniciar.png" class="btnsLinks" id="btnIngresarPalabra">
+                </div>
+            </div>
+            <div class="contenedorLetras">
+                <h5 class="text-info">Ingresa la palabra sin espacios ni signos de puntuación.</h5>
+                <h5 class="text-info">Luego da click en "INICIAR".</h5>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/palabras.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <script type="text/javascript" src="js/ingresar-palabra.js"></script>
+    <script type="text/javascript" src="js/modo-oscuro.js"></script>
+ </body>
+ </html>
