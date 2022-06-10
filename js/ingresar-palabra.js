@@ -11,7 +11,7 @@ var btnIngresarPalabra = document.getElementById('btnIngresarPalabra');
 function palabraIn () {
     const cantLetras = palabraIngresada.length;   
 
-    //window.open("index.html");
+    window.open("juegoAhorcado.html");
     console.log(palabraIngresada);
 }
 
