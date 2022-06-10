@@ -8,7 +8,7 @@ body{
     font-family: 'Holidays';
     margin: 0;
     padding: 0;
-    background: url(/imagenes/tableroVerde.jpg) no-repeat center;
+    background: url(imagenes/backgroundGreen.png) no-repeat center;
     min-height: 100vh;
     color: white;
     transition: all 0.4s;
@@ -118,7 +118,7 @@ body.darkMode{
     font-family: 'Holidays';
     margin: 0;
     padding: 0;
-    background: url(/imagenes/tablero.jpg) no-repeat center;
+    background: url(imagenes/background.jpg) no-repeat center;
     min-height: 100vh;
     color: white;
 }
