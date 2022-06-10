@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html lang="en">
  <head>
      <meta charset="UTF-8">
@@ -11,54 +11,29 @@
      <header>
          <h1>Juego del ahorcado</h1>
          <button id="pizarra" class="pizarra"></button>
-         <a href="principal.html" id="volver">volver</a>
      </header>
      <main>
-         <div>
-            <div id="base">
-                <img id="baseAho" src="imagenes/baseAho.png" alt="base del juego del ahorcado">
-                <img src="" id="perdiste">
-                <p id="palabra-adivinar">
-                </p>
-                <p id="resultado" class="teclaPresionar"></p>
-                <button id="jugar">JUGAR</button>
+        <div class="contenedor">
+            <div class="contenedorBtns">
+                <div class="btnsLinksMain">
+                    <input type="image" name="btnEmpezar" src="imagenes/btns.png" class="imgBtns" onclick="window.location.href='index.html';" id="empezarJuego">
+                    <a href="index.html" id="btnIzq">Empezar Juego</a>
+                </div>
+                <div class="btnsLinksMain">
+                    <input type="image" name="btnIngresar" src="imagenes/btns.png" class="imgBtns" onclick="window.location.href='palabras-personalizadas.html';" id="ingresarPalabra">
+                    <a href="palabras-personalizadas.html" id="btnDer" >Ingresar Palabra</a>
+                </div>
             </div>
-            <div id="letras">
-                <button>A</button>
-                <button>B</button>
-                <button>C</button>
-                <button>D</button>
-                <button>E</button>
-                <button>F</button>
-                <button>G</button>
-                <button>H</button>
-                <button>I</button>
-                <button>J</button>
-                <button>K</button>
-                <button>L</button>
-                <button>M</button>
-                <button>N</button>
-                <button>Ñ</button>
-                <button>O</button>
-                <button>P</button>
-                <button>Q</button>
-                <button>R</button>
-                <button>S</button>
-                <button>T</button>
-                <button>U</button>
-                <button>V</button>
-                <button>W</button>
-                <button>X</button>
-                <button>Y</button>
-                <button>Z</button>
+            <div class="contenedorLetras">
+                <h3>> Si quieres empezar a jugar dale un click a "Empezar Juego".</h3>
+                <h3>> Si quieres ingresar una palabra diferente, puedes darle click a "Ingresar Palabra" y después a "Jugar"</h3>
             </div>
         </div>
-    
     </main>
     <script type="text/javascript" src="js/palabras.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
     <script type="text/javascript" src="js/funciones.js"></script>
     <script type="text/javascript" src="js/ingresar-palabra.js"></script>
     <script type="text/javascript" src="js/modo-oscuro.js"></script>
-    <script type="text/javascript" src="js/game.js"></script>
  </body>
  </html>
